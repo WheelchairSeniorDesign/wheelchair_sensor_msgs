@@ -1,2 +1,15 @@
 int8 left_speed
 int8 right_speed
+int16 ultrasonic_front_0
+int16 ultrasonic_front_1
+int16 ultrasonic_back
+int16 ultrasonic_left
+int16 ultrasonic_right
+bool pir_front
+bool pir_back
+bool pir_left
+bool pir_right
+int16 fan_speed_0
+int16 fan_speed_1
+int16 fan_speed_2
+int16 fan_speed_3

@@ -1,1 +1,1 @@
-uint8 userID
+uint8 user_id

@@ -1,4 +1,4 @@
-int8 fanPercent0
-int8 fanPercent1
-int8 fanPercent2
-int8 fanPercent3
+int8 fan_percent_0
+int8 fan_percent_1
+int8 fan_percent_2
+int8 fan_percent_3

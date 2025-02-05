@@ -1,3 +1,7 @@
+name: ROS2 Build
+
+on: [push]
+
 jobs:
   test_docker: # On Linux, iterates on all ROS 1 and ROS 2 distributions.
     runs-on: ubuntu-latest

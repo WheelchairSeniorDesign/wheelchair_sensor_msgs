@@ -7,15 +7,16 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ubuntu:jammy
+      image: ros:humble
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup ROS environment
-        uses: ros-tooling/setup-ros@v0.7
-        with:
-          required-ros-distributions: humble
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          rosdep update
+          rosdep install --from-paths src --ignore-src -r -y
 
       - name: Build and test ROS 2
         uses: ros-tooling/action-ros-ci@v0.3

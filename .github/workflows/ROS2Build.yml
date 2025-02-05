@@ -12,9 +12,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create src directory if it does not exist
+        run: mkdir -p src
+
       - name: Install dependencies
         run: |
-          sudo apt-get update
+          apt-get update
           rosdep update
           rosdep install --from-paths src --ignore-src -r -y
 

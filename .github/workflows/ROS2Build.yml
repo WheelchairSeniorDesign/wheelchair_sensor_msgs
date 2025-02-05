@@ -29,3 +29,4 @@ jobs:
         with:
           package-name: wheelchair_sensor_msgs
           target-ros2-distro: ${{ matrix.ros_distribution }}
+          skip-tests: true

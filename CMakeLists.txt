@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Sensors.msg"
         "msg/RefSpeed.msg"
         "msg/Fingerprint.msg"
+        "msg/Light.msg"
+        "msg/FanSpeed.msg"
   #DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 

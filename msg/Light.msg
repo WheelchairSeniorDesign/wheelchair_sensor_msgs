@@ -1,0 +1,2 @@
+bool flashing
+bool steady

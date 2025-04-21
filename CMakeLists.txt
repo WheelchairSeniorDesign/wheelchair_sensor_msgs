@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Motors.msg"
         "msg/Battery.msg"
         "msg/Lidar.msg"
+        "msg/UWB.msg"
   #DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 

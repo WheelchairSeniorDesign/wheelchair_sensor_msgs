@@ -26,6 +26,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Lidar.msg"
         "msg/Brake.msg"
         "msg/UWB.msg"
+        "msg/SensorError.msg"
+        "msg/MotorError.msg"
   #DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 

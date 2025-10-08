@@ -1,3 +1,5 @@
+int8 lat_disp
+int8 long_disp
 int8 left_speed
 int8 right_speed
 int16 ultrasonic_front_0
